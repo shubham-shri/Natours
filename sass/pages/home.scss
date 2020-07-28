@@ -1,5 +1,7 @@
+@import '../abstract/variables';
+
 .section-about {
-  background-color: $color-grey-light-1;
+  background: $color-grey-light;
   padding: 25rem 0;
   margin-top: -20vh;
 }
@@ -40,11 +42,11 @@
 
 .section-tours {
   padding: 20rem 0 15rem 0;
-  background-color: $color-grey-light-1;
+  background: $color-grey-light-1;
   margin-top: -10rem;
 }
 
 .section-stories {
+  position: relative;
   padding: 15rem 0;
-  background-color: $color-grey-light-1;
 }
